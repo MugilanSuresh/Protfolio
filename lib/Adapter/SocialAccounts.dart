@@ -15,13 +15,13 @@ class SocialAccounts extends StatelessWidget {
           _buildSocialIcon(Icons.mail_outline, "mailto:" + MAIL_ID),
           SizedBox(height: 15),
           _buildSocialIcon(
-              IconData(0xe806, fontFamily: 'MySocialIcons'), LINKEDLN_URL),
+            const  IconData(0xe806, fontFamily: 'MySocialIcons'), LINKEDLN_URL),
           SizedBox(height: 15),
           _buildSocialIcon(
-              IconData(0xe800, fontFamily: 'MySocialIcons'), GITHUB_URL),
+            const  IconData(0xe800, fontFamily: 'MySocialIcons'), GITHUB_URL),
           SizedBox(height: 15),
           _buildSocialIcon(
-              IconData(0xe804, fontFamily: 'MySocialIcons'), INSTAGRAM_URL),
+             const IconData(0xe804, fontFamily: 'MySocialIcons'), INSTAGRAM_URL),
           SizedBox(height: 15),
         ],
       ),
